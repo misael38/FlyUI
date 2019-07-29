@@ -16,7 +16,7 @@
 3. Restart your server so that the plugin will be enabled!
 
 # Youtube Video
- [click here](https://youtu.be/z4ZzIYyYwuM) To watch the video!
+ [click here](www.google.com) To watch the video!
 
 # Donation
  [click here](https://www.paypal.me/misael38) for donation 
