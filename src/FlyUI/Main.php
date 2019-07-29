@@ -48,24 +48,24 @@ $this->getServer()->getPluginManager()->registerEvents($this,$this);
             switch($result){
                 case 0:
                     $player->sendMessage(TextFormat::GREEN . "Enabled flight mode!");
-                    $player->addTitle("Fly", "Enable");
+                    $player->addTitle("§l§6Fly", "§a§lEnable");
                     $player->setAllowFlight(true);
                 break;
                     
                 case 1:
                     $player->sendMessage(TextFormat::RED . "Disabled flight mode!");
-                    $player->addTitlr("Fly", "Disable");
+                    $player->addTitle("§l§6Fly", "§c§lDisable");
                     $player->setAllowFlight(false);
                 break;
             }
             
             
             });
-            $form->setTitle("§lFlyUI");
+            $form->setTitle("§l§6FlyUI");
             $form->setContent("Chose option please!");
-            $form->addButton("Enable");
-            $form->addButton("Disable");
-            $form->addButton("Exit");
+            $form->addButton("§lEnable");
+            $form->addButton("§lDisable");
+            $form->addButton("§l§cExit");
             $form->sendToPlayer($player);
             return $form;                                            
     }
